@@ -12,7 +12,7 @@ unsigned int p(x) {
         if (A[i] > x) {
             return 0;
         }
-        if (work + A[i] > x) {
+        if (tmp_work + A[i] > x) {
             worked_person_num++;
             tmp_work = A[i];
         }
