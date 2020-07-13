@@ -20,8 +20,7 @@ unsigned int p(x) {
             tmp_work += A[i];
         }
     }
-    if (worked_person_num <= k) return 1;
-    return 0;
+    return worked_person_num <= k;
 }
 
 int main(){

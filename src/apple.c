@@ -9,7 +9,7 @@ unsigned int p(int m) {
   long long sum;
   sum = 0;
   for (i = 0; i < n; i++) {
-    sum += (int)((A[i] + m -1)/m);
+    sum += (A[i] + m -1)/m;
   }
   return sum <= k;
 }
